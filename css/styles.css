@@ -1,50 +1,125 @@
 body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #fff;
-  
-    ul,
-    ol {
-      list-style-type: none;
-    }
-  
-    a {
-      text-decoration: none;
-    }
-    .logo {
-      font-family: "Raleway", sans-serif;
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 1.17;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      color: #4d5ae5;
-    }
-    .logo-part {
-      color: #2e2f42;
-    }
-    .nav-link {
-      font-family: "Roboto", sans-serif;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.02em;
-      color: #2e2f42;
-    }
-    .nav-link:hover,
-    .nav-link:focus,
-    .contacts-link:hover,
-    .contacts-link:focus {
-      color: #404bbf;
-    }
-    .contacts {
-      font-style: normal;
-    }
-    .contacts-link {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  font-family: "Roboto", sans-serif;
   color: #434455;
-    }
+  background-color: #fff;
+
+  ul,
+  ol {
+    list-style-type: none;
   }
-  
+
+  a {
+    text-decoration: none;
+  }
+  .logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+  }
+  .logo-part {
+    color: #2e2f42;
+  }
+  .nav-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+  .nav-link:hover,
+  .nav-link:focus,
+  .contacts-link:hover,
+  .contacts-link:focus {
+    color: #404bbf;
+  }
+  .contacts {
+    font-style: normal;
+  }
+  .contacts-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+}
+.main-content {
+  paddind: 20;
+}
+.section-intro {
+  background-color: #2e2f42;
+}
+.section-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+.btn-order {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: #4d5ae5;
+}
+.btn-order:hover,
+.btn-order:focus {
+    background-color: #404bbf;
+}
+.section-advantages {
+    background: #fff;
+}
+.section-subtitle {
+color: #2e2f42;
+}
+.advantages-list {
+
+}
+.advantages-item {
+
+}
+.advantages-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.advantages-description {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455; 
+}
+.section-team {
+
+}
+.section-subtitle {
+
+}
+.team-list {
+
+}
+.team-member {
+
+}
+.team-photo {
+
+}
+.team-name {
+
+}
+.team-role {
+    
+}
