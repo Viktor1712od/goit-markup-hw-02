@@ -73,12 +73,11 @@ a {
 }
 
 .btn-order {
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background-color: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
 }
 
 .btn-order:hover,
@@ -142,10 +141,8 @@ a {
 
 .team-member {
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
     width: 226px;
     height: 406px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background-color: #fff;
 }
 
@@ -173,6 +170,44 @@ a {
     color: #434455;
 }
 
+.portfolio-section {
+    background: #fff;
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.12;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.portfolio-list {
+    list-style: none;
+}
+
+.portfolio-img {
+    width: 360px;
+    height: 300px;
+}
+
+.portfolio-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 .page-footer {
     width: 1440px;
     height: 312px;
@@ -184,5 +219,7 @@ a {
 }
 
 .footer-description {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #f4f4fd;
 }
