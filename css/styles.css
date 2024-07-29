@@ -97,13 +97,11 @@ a {
 }
 
 .advantages-list {
-    width: 1440px;
-    height: 600px;
+    list-style: none;
 }
 
 .advantages-item {
-    width: 264px;
-    height: 104px;
+    list-style: none;
 }
 
 .advantages-title {
@@ -131,7 +129,7 @@ a {
 .section-subtitle {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -140,19 +138,14 @@ a {
 
 .team-list {
     background-color: #f4f4fd;
-
 }
 
 .team-member {
-    border-radius: 0 0 4px 4px;
-    width: 226px;
-    height: 406px;
     background-color: #fff;
 }
 
 .team-photo {
-    width: 264px;
-    height: 260px;
+    list-style-type: none;
 }
 
 .team-name {
@@ -193,8 +186,7 @@ a {
 }
 
 .portfolio-img {
-    width: 360px;
-    height: 300px;
+    list-style-type: none;
 }
 
 .portfolio-item-title {
@@ -214,8 +206,6 @@ a {
 }
 
 .page-footer {
-    width: 1440px;
-    height: 312px;
     background-color: #2e2f42;
 }
 
